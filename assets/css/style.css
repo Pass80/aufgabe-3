@@ -1,0 +1,57 @@
+body {
+  background-image: linear-gradient(45deg, #76aaed 12.5%, #eda24c 12.5%, #eda24c 25%, #eb6186 25%, #eb6186 37.5%, #a366e3 37.5%, #a366e3 50%, #76aaed 50%, #76aaed 62.5%, #eda24c 62.5%, #eda24c 75%, #eb6186 75%, #eb6186 87.5%, #a366e3 87.5%, #a366e3 100%);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+section {
+  position: relative;
+  max-width: 100%;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 8rem;
+  position: relative;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+h1::after {
+  content: "2.";
+  position: absolute;
+  top: -2rem;
+  right: -3rem;
+  font-size: 4rem;
+  text-align: center;
+  background-color: #ebbf61;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.plus {
+  color: #000;
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.icons {
+  color: #000;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 4rem;
+  right: 8rem;
+}/*# sourceMappingURL=style.css.map */

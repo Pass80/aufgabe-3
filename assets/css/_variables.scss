@@ -1,0 +1,22 @@
+$blueColor: #76aaed;
+$goldColor: #eda24c;
+$pinkColor: #eb6186;
+$purpleColor: #a366e3;
+$backGround: linear-gradient(
+    45deg,
+    $blueColor 12.5%,
+    $goldColor 12.5%,
+    $goldColor 25%,
+    $pinkColor 25%,
+    $pinkColor 37.5%,
+    $purpleColor 37.5%,
+    $purpleColor 50%,
+    $blueColor 50%,
+    $blueColor 62.5%,
+    $goldColor 62.5%,
+    $goldColor 75%,
+    $pinkColor 75%,
+    $pinkColor 87.5%,
+    $purpleColor 87.5%,
+    $purpleColor 100%
+);
